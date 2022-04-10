@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+  font-size: 28px;
+}
+
+.carbonTicker {
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.lights {
+  background-color: #F4E98C;
+  transition: background-color 0.5s ease-in;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.black {
+  background-color: black;
+}
+
+.alarmClock {
+  animation: blinker 1s linear infinite;
+  color: red;
+  font-family: 'digital-clock-font';
+  font-size: 4em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.am {
+  font-size: 0.25em
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@font-face{
+  font-family: 'digital-clock-font';
+  src: url(../../fonts/RADIOLAND.TTF);
+ }
+
+.lamp link {
+  color: white;
+}
+
+input {
+  font-size: 28px;
+  width: 100px;
+}
