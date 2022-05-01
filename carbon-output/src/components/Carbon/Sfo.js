@@ -4,7 +4,7 @@ function Sfo({ reset }) {
     return (
         <div className="sfo">
             <div>
-                <Link to='/' onClick={reset}></Link>
+                <Link to='/' onClick={reset}>Reset.</Link>
             </div>
         </div>
     )
