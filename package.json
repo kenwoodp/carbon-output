@@ -6,8 +6,8 @@
   "scripts": {
     "build": "cd carbon-output && npm run build",
     "install": "cd carbon-output && npm install",
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "cd carbon-output && npm start",
+    "server": "node server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server.js\" \"npm run carbon-output\""
   },
