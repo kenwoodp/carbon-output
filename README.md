@@ -2,7 +2,7 @@
 ## Project 4 - SEI - General Assembly
 This was our final project for our Software Engineering Bootcamp course at General Assembly. For this project, I decided to build an app that gives a real time visualisation of the amount of carbon dioxide produced by common household appliances, along with a quick narration to compliment the data.
 
-[Check it out here!] (google.com)
+[Check it out here!](google.com)
 
 The main focus of this project was to demonstrate proper use of APIs to manipulate and display on the page, along with the use of React's useEffect to re-render a ticker on the page after each state change.
 
